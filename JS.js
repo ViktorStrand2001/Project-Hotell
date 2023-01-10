@@ -22,7 +22,7 @@ window.onscroll = function() {scrollFunction()};
 //Thank you popup
 const nextStep = document.querySelector('#submitbut');
 
-submitbut.addEventListener('click', function () {
+nextStep.addEventListener('click', function (e) {
 e.preventDefault();
 
 document.getElementById('contactFormula').style.display = 'none';
