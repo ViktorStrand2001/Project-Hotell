@@ -87,7 +87,7 @@ ul li:hover {
     position: absolute;
     top: 50px;
     left: 0;
-    height: calc(100vh - 50px);
+    height: 30%;
     width: 100%;
 }
 
