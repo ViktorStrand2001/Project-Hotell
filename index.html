@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="HamburgerButton.css">
+    <link rel="stylesheet" href="/goToTopButton.css" />
+    <title>Strand Hotell</title>
+</head>
+<body>
+  <button onclick="gotopFunction()" id="goTop" title="Go to top of page">^</button>
+    <header>
+        <div id="menuButton"><a href="/">Strand Hotell</a></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">StartSida</a></li>
+          <li><a href="HotelRoom.html">Våra erbjudanden</a></li>
+          <li><a href="ContactInfo.html">Kontakta oss</a></li>
+        </ul>
+      </nav>
+      <div id="hamburgerIcon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobileMenu">
+          <li><a href="index.html">Startsida</a></li>
+          <li><a href="HotelRoom.html">Hotellrum</a></li>
+          <li><a href="ContactInfo.html">Kontakta oss</a></li>
+        </ul>
+      </div>
+    </header>
+        <h1>Meny</h1>
+        <img src="/Picture-and-videos/photo-1549923015-870c045f5e64.avif" alt="Bild på vårt fina hotell på natten">
+    <main>
+        <h2>Våra erbjudanden</h2>
+        <img src="/Picture-and-videos/photo-1566665797739-1674de7a421a.avif" alt="Bild på en av våra mysiga sovrum.">
+        <p>Vi erbjuder dig exklusiva hotellrum, barer, måltider och survice för ett mycket bra pris. </p>
+        <a href="/HotelRoom.html">Boka här!</a>
+    </main>
+
+    <section>   
+        <h2>Om oss</h2>
+        <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum modi delectus atque quibusdam. Atque recusandae hic architecto sit veniam eius eos delectus aliquid modi est commodi omnis fugiat, voluptatibus sequi.</p>
+    </section>
+    <footer>
+   <nav>
+      <p>
+         <a href="index.html">Startsidan</a> - 
+         <a href="">Användarvillkor</a> -
+         <a href="kontakt.html">Kontakt</a>
+      </p>
+   </nav>
+   <p id="cr"><small>&copy; Copyright 2023 Företag AB.</small></p>
+</footer>
+    <script src="JS.js"></script>
+</body>
+</html>

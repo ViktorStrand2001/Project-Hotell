@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+/*Text och allmänt utsende*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: "Poppins", sans-serif;
+}
+
+h1{
+    color: #DFEFF2;
+    background-color: #401E01;
+    text-align: center;
+}
+
+h2{
+    color: #DFEFF2;
+    background-color: #401E01;
+    position: relative;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/*resten*/
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: flex;
+    float: inline-end;
+}
+
+section {
+    background-color: #BFB188;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+section p {
+    text-align: center;
+}
+
+main {
+    background-color: #BFB188;
+    color: #0D0D0D;
+    width: 100vw;
+    height: auto;
+    position: relative;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+}
+
+main a{
+    color: #0D0D0D;
+}
+
+footer {
+    background-color: white;
+    color: #0D0D0D;
+    position: relative;
+    margin: 10px;
+}
+
+#cr{
+    color: #0D0D0D;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer p a{
+    color: #0D0D0D;
+}
