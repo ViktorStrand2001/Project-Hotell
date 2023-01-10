@@ -33,16 +33,18 @@ header a {
 
 /*resten*/
 img{
-    width: 100%;
-    height: auto;
+    background-color: #BFB188;
+    max-height: 80vh;
     object-fit: contain;
+    width: 100vw;
+    height: auto;
     display: flex;
     float: inline-end;
 }
 
 section {
     background-color: #BFB188;
-    width: 100vw;
+    width: 100%;
     height: auto;
     align-items: center;
     justify-content: center;

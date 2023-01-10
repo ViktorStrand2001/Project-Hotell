@@ -27,12 +27,22 @@ section{
     position: relative;
 }
 
+section p{
+    text-align: center;
+}
+
+section a{
+    display: flex;
+    justify-content: center;
+}
+
 a{
   color: #0D0D0D;  
 }
 
 img {
     width: 100%;
+    max-height: 80vh;
     height: auto;
     object-fit: contain;
     display: flex;
